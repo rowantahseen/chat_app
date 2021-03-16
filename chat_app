@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T21:14:56.660Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" version="14.4.8" etag="HZb-8ivK5MHgeNY3oLcO" type="github"><diagram id="o1lLw7wo_4SUsY-SFI_t">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-16T23:27:02.267Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="uSpWQSr4L9c52yFp0ID6" version="14.4.8" type="github">
+  <diagram id="o1lLw7wo_4SUsY-SFI_t" name="Page-1">
+    <mxGraphModel dx="1355" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-4" value="Mobile client" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
+          <mxGeometry x="30" y="235" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-3" value="Client" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.client;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-5" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#0000CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="110" as="sourcePoint" />
+            <mxPoint x="276" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-6" value="create application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="166" y="110" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontSize=17;fontColor=#000000;" edge="1" parent="1" source="7bFXEAXzbHgwjxmWM5mT-7" target="7bFXEAXzbHgwjxmWM5mT-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-7" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="456" y="-15" width="260" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-8" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;Chat System&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-9" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.908;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7bFXEAXzbHgwjxmWM5mT-7" target="7bFXEAXzbHgwjxmWM5mT-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="725" y="160" as="sourcePoint" />
+            <mxPoint x="805" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-17" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#0000CC;entryX=0.931;entryY=1.141;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7bFXEAXzbHgwjxmWM5mT-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="140" as="sourcePoint" />
+            <mxPoint x="256" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-18" value="send chat to certain app" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="126" y="140" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-19" value="" style="endArrow=classic;html=1;fontColor=#0000CC;strokeColor=#0000CC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="116" y="170" as="sourcePoint" />
+            <mxPoint x="246" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-20" value="create chat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="146" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-21" value="" style="endArrow=classic;html=1;fontColor=#009900;fillColor=#d5e8d4;strokeColor=#009900;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226" y="226" as="sourcePoint" />
+            <mxPoint x="116" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-22" value="chat number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="136" y="210" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-23" value="" style="endArrow=classic;html=1;fontColor=#0000CC;strokeColor=#0000CC;entryX=0.05;entryY=0.515;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="106" y="238" as="sourcePoint" />
+            <mxPoint x="239" y="270.04999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-24" value="create msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="136" y="230" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-27" value="" style="endArrow=classic;html=1;fontColor=#009900;fillColor=#d5e8d4;strokeColor=#009900;exitX=0.069;exitY=0.438;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="233.94000000000005" y="290" as="sourcePoint" />
+            <mxPoint x="106" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-28" value="msg number" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=15;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="126" y="270" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-29" value="" style="endArrow=classic;html=1;fontColor=#0000CC;strokeColor=#0000CC;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="310" as="sourcePoint" />
+            <mxPoint x="231.64999999999998" y="336.0999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-30" value="Search msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=10;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="116" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-31" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 19px&quot;&gt;MySQL&lt;/b&gt;&lt;/font&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=none;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="895" y="100" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-33" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;Background Job&lt;/b&gt;&lt;br&gt;updates&lt;b&gt; &lt;/b&gt;&lt;br&gt;chat_count&lt;br&gt;msgs_count&lt;br&gt;&lt;/font&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;strokeColor=#000000;fillColor=none;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="670" y="254" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-36" value="" style="endArrow=classic;startArrow=classic;html=1;fontColor=#009900;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7bFXEAXzbHgwjxmWM5mT-33" target="7bFXEAXzbHgwjxmWM5mT-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="845" y="250" as="sourcePoint" />
+            <mxPoint x="895" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-37" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530.48" y="530" width="109.52" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-39" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic;fontColor=#009900;" vertex="1" parent="1">
+          <mxGeometry x="276" y="200" width="180" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-40" value="Key : Value" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-41" value="app_ID: [chat_id]" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="650" y="542" width="110" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-42" value="search the messages body?&lt;br&gt;how to index?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="635" y="670" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-46" value="create_msg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="455" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7bFXEAXzbHgwjxmWM5mT-47" value="create_chat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=17;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
